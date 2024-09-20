@@ -12,10 +12,15 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Hi, Welcome to my first app! day: $days $name v1: 3"),
-        ),
+            child: Text(
+          "Hi, Welcome to my first app! day: $days $name v1: 5",
+          style: const TextStyle(
+            fontSize: 17,
+            color: Colors.blue,
+          ),
+        )),
       ),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
