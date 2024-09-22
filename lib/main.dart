@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light, // Ensure it is set to light
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
           color: Colors.blue, // Set the app bar color if not showing correctly
         ),
       ),
-      initialRoute: "/login", // this will be initial route
+      initialRoute: MyRoutes.homeRoute, // this will be initial route
       routes: {
         "/": (context) => LoginPage(),
         MyRoutes.homeRoute: (context) => MyHomePage(),
