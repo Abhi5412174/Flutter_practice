@@ -16,7 +16,7 @@ class MyHomePage extends StatelessWidget {
           "Hi, Welcome to my first app! day: $days $name v1: 5",
           style: const TextStyle(
             fontSize: 17,
-            color: Colors.blue,
+            color: Colors.black,
           ),
         )),
       ),
