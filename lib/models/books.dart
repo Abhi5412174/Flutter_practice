@@ -4,7 +4,7 @@ class Books {
     Item(
         id: 001,
         name: "demo_book1",
-        desc: "this is a book.",
+        desc: "this is a book1.",
         price: 500,
         credit: 5,
         image:

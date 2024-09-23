@@ -1,0 +1,45 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "demo_book1",
+            "desc": "This is a description.",
+            "price": 500,
+            "credit": 5,
+            "image": "https://exponentwptheme.com/book/wp-content/uploads/sites/26/2019/02/book-mockup-exponent-min.png"
+        },
+        {
+            "id": 2,
+            "name": "demo_book2",
+            "desc": "This is a description.",
+            "price": 400,
+            "credit": 4,
+            "image": "https://exponentwptheme.com/book/wp-content/uploads/sites/26/2019/02/book-mockup-exponent-min.png"
+        },
+        {
+            "id": 3,
+            "name": "demo_book3",
+            "desc": "This is a description.",
+            "price": 500,
+            "credit": 5,
+            "image": "https://exponentwptheme.com/book/wp-content/uploads/sites/26/2019/02/book-mockup-exponent-min.png"
+        },
+        {
+            "id": 4,
+            "name": "demo_book4",
+            "desc": "This is a description.",
+            "price": 300,
+            "credit": 3,
+            "image": "https://exponentwptheme.com/book/wp-content/uploads/sites/26/2019/02/book-mockup-exponent-min.png"
+        },
+        {
+            "id": 5,
+            "name": "demo_book5",
+            "desc": "This is a description.",
+            "price": 200,
+            "credit": 2,
+            "image": "https://exponentwptheme.com/book/wp-content/uploads/sites/26/2019/02/book-mockup-exponent-min.png"
+        }
+
+    ]
+}

@@ -12,14 +12,17 @@ class ItemWidget extends StatelessWidget {
     return Card(
       child: ListTile(
         leading: Image.network(item.image),
-        title: Text(
+        title: const Text(
           "Demo_Book1",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         subtitle: Text("This is description. \Rs.${item.price}"),
         trailing: Text(
           "\¢${item.credit}",
-          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 19),
+          style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 19,
+              color: const Color.fromARGB(255, 2, 142, 7)),
         ),
       ),
     );
